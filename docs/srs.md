@@ -1,8 +1,8 @@
 # Thành viên phát triển:
 
-1. Nguyễn Tiến Thịnh
+1. Nguyễn Tiến Thịnh (media, search, user )
    
-2. Anh
+2. Anh (comment, chat, post)
 
 # Chức năng của phần mềm: 
 
