@@ -1,0 +1,23 @@
+services:
+  comment-services-db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 1234
+    ports:
+      - 5432:5432
+    volumes:
+      - comment-services-volumn:/usr/local/pgsql/data
+
+  # pgadmin: 
+  #   image: dpage/pgadmin4
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: user@gmail.com
+  #     PGADMIN_DEFAULT_PASSWORD: 1234
+  #     PGADMIN_DEFAULT_PASSWORD_FILE: 1
+  #   ports:
+  #     - 5050:80
+
+volumes:
+  comment-services-volumn:
+
