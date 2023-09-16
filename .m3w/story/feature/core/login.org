@@ -1,0 +1,10 @@
+
+-*- mode: org -*-
+
+#+AUTHOR: thinhorigami
+#+TITLE: core feature: login
+
+* login
+- user can login with:
+  - username\email and password
+  - OAuth with google/facebook
