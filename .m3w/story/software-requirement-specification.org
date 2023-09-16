@@ -1,10 +1,6 @@
 
--*- mode: org -*-
-
 #+AUTHOR: thinhorigami
 #+TITLE: Software Requirement Specification
-
-* Software Requirement Specification
 
 ** Development Team
   - [[https://github.com/thinhorigami][thinhorigami]]
@@ -12,7 +8,6 @@
 ** idea
   - a social media for share my stories.
 
-** feature
-*** core
+** core-feature
 - [[file:feature/core/login.org][login]]
-  
+

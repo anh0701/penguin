@@ -1,0 +1,8 @@
+
+#+author: thinhorigami
+#+TITLE: core feature
+
+* login
++ user can login with:
+  - username\email and password
+  - OAuth with google/facebook
