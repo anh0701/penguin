@@ -11,7 +11,7 @@ create table public.user (
 create table public.post (
 	id SERIAL primary key,
 	content TEXT,
-	authorId int references user(id)
+	authorId int references public.user(id)
 )
 
 create table public.comment (
